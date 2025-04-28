@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { CodeIcon, BriefcaseIcon, Buildings2Icon, TimerIcon, LaughIcon, HeartIcon, HashIcon } from "lucide-react";
+import { CodeIcon, BriefcaseIcon, BuildingIcon, TimerIcon, LaughIcon, HeartIcon, HashIcon } from "lucide-react";
 
 // Категории мемов
 const categoriesData = [
@@ -28,7 +28,7 @@ const categoriesData = [
   {
     id: "office",
     name: "Офис",
-    icon: <Buildings2Icon className="h-5 w-5" />,
+    icon: <BuildingIcon className="h-5 w-5" />,
     description: "Всё о корпоративной культуре и офисной жизни",
     memesCount: 27,
     color: "bg-purple-100 text-purple-800"
